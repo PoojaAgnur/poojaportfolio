@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&display=swap');
+*{
+font-family: 'Agdasima', sans-serif;
+}
+.bannerBgImage{
+    height: 100vh;
+    background: url("/new/Banner.jpg");
+    background-size: cover;
+    position: relative;
+}
+.bannerText{
+    text-align:right;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white ;
+}
+.bannerTitle{
+    font-size: 4rem;
+}
+.bannerDesc{
+    font-size:2rem;
+}
+*{
+    margin : 0px;
+    padding :0px;
+    font-family: sans-serif;
+}
+
+.container{
+    display: flex;
+}
+.card{
+    height: 600px;
+    width: 500px;
+    
+    margin: 50px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+}
+img {
+    height: 400px;
+    
+    border-radius: 3px;
+}
+.intro{
+    height: 70px;
+    width: 350px;
+    padding: 6px;
+}
+    /* box-sizing: border-box;
+    position: absolute;
+    background: rgb;
+    color: white;
+} */
+h1{
+    margin: 10px;
+    font-size: 40px;
+}
+p{
+    font-size: 20px;
+    margin: 20px;
+}
+span{
+    font-weight: bold;
+}
+.card:hover{
+    cursor: pointer;
+}
+/* 
+button{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+button  :hover {
+    background-color: black;
+    color : white;
+    transition : 0.5s;
+    cursor: pointer;
+    transition: 0.5s; */
+
+/* } */
+.card:hover{
+    background-color: palevioletred;
+    border: 2px solid yellowgreen;
+}
+.bIcon{
+    width: 100%;
+    text-align: center;
+    font-size:40px;
+}
+.img-fluid:hover{
+    border: 2px solid yellowgreen;
+}
+.card-img-top{
+   height: 5px; }
